@@ -1,7 +1,7 @@
 import os
 import argparse
 
-from constants import hc1
+from constants import hc2 as hc
 from utils import create_dir, save_args
 from preprocessing import preprocess_transcript
 from topic_modeling import create_topics
@@ -33,6 +33,6 @@ if __name__ == '__main__':
     generate_barchart(topic_model, os.path.join(EXP_PATH, "barchart.png"))
 
     print("Computing similarity score...")
-    scores = compare_scores(doc_df, hc1, topic_model, cv_model)
-    generate_topic_heatmap(scores, hc1, os.path.join(EXP_PATH, "heatmap.png"))
+    scores = compare_scores(doc_df, hc, topic_model, cv_model)
+    generate_topic_heatmap(scores, hc, os.path.join(EXP_PATH, "heatmap.png"))
 

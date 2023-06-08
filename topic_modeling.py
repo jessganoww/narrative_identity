@@ -1,4 +1,4 @@
-from constants import seed_weights
+from constants import seed
 
 from sentence_transformers import SentenceTransformer
 from umap import UMAP
@@ -30,7 +30,7 @@ def create_topics(docs, args):
                            hdbscan_model=hdbscan_model,
                            vectorizer_model=cv_model,
                            ctfidf_model=ctfidf_model,
-                           seed_topic_list=seed_weights,
+                           seed_topic_list=seed,
                            calculate_probabilities=True)
 
     topic, probs = topic_model.fit_transform(docs)
