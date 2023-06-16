@@ -28,3 +28,10 @@ cat1 = ["social identity", "feeling", "time period/life era", "social progress",
 
 cat2 = ["food", "family", "feeling", "places", "activity", "belief", "marriage", "knowledge", "travel",
         "age", "career", "critical moment", "technology", "event", "important object"]
+
+
+### Mr. Stamper
+seed2 = [["economy", "election", "president", "news", "newspaper", "anchor", "debate", "truth", "lying", "politicians",
+         "fly", "Mike Pence", "media", "government", "value", "environmental", "social issues", "diversity", "socialism"],
+        ["depression", "war", "COVID", "assassinated", "death", "WW2", "Vietnam War", "army", "soldiers", "drafted"],
+        ["drive", "read", "golf", "sailing", "hang out", "baseball", "football", "sports", " cards", "camp", "basketball"]]
